@@ -1,0 +1,309 @@
+.shopBag-icon {
+
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    animation-name: intro;
+    animation-duration: 4s;
+    
+
+}
+.background-img {
+    transition-property: all;
+    transition-duration: 200ms;
+}
+.background-img:active {
+
+    border: solid yellow;
+    border-bottom: solid green;
+    box-shadow: 10px 10px 10px;
+
+}
+.Movie{
+    
+    width: 250px;
+
+}
+.nigger {
+
+    height: 30px;
+    position: absolute;
+    left: 90%;
+
+}
+.nigger2 {
+
+    height: 30px;
+    position: absolute;
+    left: 90%;
+    top: 200px;
+
+}
+.audio {
+    border: solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition-property: all;
+    transition-duration: 200ms;
+
+    background-color: aliceblue;
+}
+.audio:active {
+ border-radius: 30px;
+ -webkit-border-radius: 30px;
+ -moz-border-radius: 30px;
+ -ms-border-radius: 30px;
+ -o-border-radius: 30px;
+ box-shadow: 10px 10px 10px;
+ background-color: beige;
+}
+.DMS {
+  width: 100%;
+}
+.text {
+
+    margin-left: 30%;
+
+}
+.slogan {
+
+    position: relative;
+    top: auto;
+    left: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    animation-name:intro2;
+    text-align: center;
+    animation-duration: 2s;
+
+}
+.text-field {
+    text-align: center;
+    position: relative;
+    left: 4%;
+    border-radius: 30px;
+    border: solid black;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 10px;
+}
+.muchmore {
+
+
+    position: relative;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+
+}
+.shoppingBag-icon {
+    position: relative;
+    left: 20%;
+    height: 40px;
+    position: absolute;
+    left: 40%;
+
+}
+.shop-title {
+
+    
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    opacity: 1;
+    text-align: center;
+
+    margin-top: 120px;
+    transition-property: opacity;
+    transition-duration: 400ms;
+
+}
+
+.three-bars {
+
+    height: 30px;
+
+}
+.info-btn {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.info-btn:active {
+
+    opacity: 0.5;
+    box-shadow: 10px 10px 10px;
+
+}
+.btn {
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.btn:active {
+
+    opacity: 0.5;
+
+}
+.dialog5 {
+
+    background-color: aliceblue;
+    border: none;
+    padding: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+
+}
+.shoppingbag-close-btn{
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.popUp {
+    background-color: aliceblue;
+    border: none;
+    padding: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+@keyframes intro {
+    
+    from{
+        transform: translateX(-1000px);
+        -webkit-transform: translateX(-1000px);
+        -moz-transform: translateX(-1000px);
+        -ms-transform: translateX(-1000px);
+        -o-transform: translateX(-1000px);
+}
+
+    to {
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+}
+
+}
+
+    .closebtn {
+        padding: 10px;
+        background-color: red;
+        margin-left:20% ;
+        border: none;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        font-weight: bolder;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@keyframes intro-CONTAINER {
+    
+    from{
+        transform: translateX(1000px);
+        -webkit-transform: translateX(1000px);
+        -moz-transform: translateX(1000px);
+        -ms-transform: translateX(1000px);
+        -o-transform: translateX(1000px);
+}
+
+    to {
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+}
+
+}
+
+    .closebtn {
+        padding: 10px;
+        background-color: red;
+        margin-left:20% ;
+        border: none;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        font-weight: bolder;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@keyframes intro2 {
+
+    from {
+        transform: translateX(-1000px);
+        -webkit-transform: translateX(-1000px);
+        -moz-transform: translateX(-1000px);
+        -ms-transform: translateX(-1000px);
+        -o-transform: translateX(-1000px);
+}
+
+    to {
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+}
+    
+}
+.container {
+    position: absolute;
+  border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px;
+    background-color: lavender;
+
+
+    top: 80%;
+    margin-left: 10%;
+animation-name: intro-CONTAINER ;
+animation-duration: 3s;
+
+    
+}

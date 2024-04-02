@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="x-icon" href="../Images/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeCine | Commentaire </title>
+</head>
+<body>
+    
+    <p class="title"> <strong>
+
+        <img src="https://cdn-icons-png.flaticon.com/128/1230/1230203.png" alt="https://cdn-icons-png.flaticon.com/128/1230/1230203.png" class="img1">
+
+            Vos Commentaires !
+
+    </strong></p>
+   
+
+    <textarea name="Comment" id="CommentValue" cols="30" rows="10" class="Comment-Area"></textarea>
+    <br>
+    <br>
+    <br>
+    <button onclick="d1.showModal()" class="btnP">
+        Publier
+    </button>
+
+    <script>
+
+        function done() {
+
+            Notification.requestPermission(perm => {
+
+                if (perm = "granted") {
+                    
+                    new Notification("Nous avons recu votre commentaire !")
+
+                }
+
+            })
+
+        }
+
+    </script>
+
+    <dialog id="d1" class="dialog">
+
+        <strong>
+            <button class="btn" onclick="d1.close()">X</button>
+            <br>
+            <br>
+            Si vous avez envoyer des chose inaproprier ou , autre menace , votre apareil risque le ban permanent du site :(
+                <br>
+                <br>
+
+            <button onclick="d1.close()" class="btn1F">
+                Laisse tomber !
+            </button>
+            <br>
+            <br>
+
+            <button onclick="done()" class="btn">
+                Ok
+            </button>
+
+        </strong>
+
+    </dialog>
+
+    <a href="/Shop.html">
+
+        <img src="https://cdn-icons-png.flaticon.com/128/263/263115.png" alt="https://cdn-icons-png.flaticon.com/128/263/263115.png" class="home-icon">
+
+
+    </a>
+    
+   
+    <style>
+        .btnP {
+
+            padding: 15px;
+            border: solid;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            box-shadow: 5px 5px 5px;
+            border-radius: 30px;
+            transition-property: all;
+            transition-duration: 200ms;
+            position: absolute;
+            top: 500px;
+            left: 40%;
+
+        }
+        .btn {
+
+            padding: 15px;
+            border: solid;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            box-shadow: 5px 5px 5px;
+            border-radius: 30px;
+            transition-property: all;
+            transition-duration: 200ms;
+
+        }
+        .btn:active{
+
+            border-radius: 30px;
+            box-shadow: 10px 10px 10px;
+
+        }
+        .btn1 {
+
+            padding: 15px;
+            border: solid;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            box-shadow: 5px 5px 5px;
+            border-radius: 30px;
+            transition-property: all;
+            transition-duration: 200ms;
+
+        }
+        .btn1F {
+
+            padding: 15px;
+            border: solid;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            box-shadow: 5px 5px 5px;
+            border-radius: 30px;
+            transition-property: all;
+            background-color: red;
+            transition-duration: 200ms;
+
+        }
+        .dialog {
+
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            background-color: aliceblue;
+            border-radius: 30px;
+            box-shadow: 10px 10px 10px;
+                
+        }
+        .img1 {
+
+            height: 40px;
+            
+        }
+        .Comment-Area {
+
+            position: absolute;
+            background-color: aliceblue;
+            border-radius: 20px;
+            top: 300px;
+            left: 20%;
+            text-align: center;
+            transition-property: all;
+            transition-duration: 200ms;
+
+
+        }
+        .Comment-Area:hover {
+
+            border-radius: 30px;
+            border-bottom-color:aqua ;
+            border-bottom-width: 7px;
+
+        }
+        .coming-soon-icon {
+
+            height: 100px;
+            position: absolute;
+            left: 35%;
+            top: 40%;
+
+        }
+        .home-icon {
+
+            height: 50px;
+
+        }
+        .title {
+
+            text-align: center;
+            position: absolute;
+            font-size: large;
+            top: 20%;
+            left: 20%;
+            right: 20%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bolder;
+
+        }
+        .header {
+
+            position: absolute;
+            top: 10%;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: orangered;
+
+
+        }
+    </style>
+</body>
+</html>

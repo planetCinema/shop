@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="x-icon" href="/Folders/Assets/Images/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Cineplanet</title>
+    <link rel="stylesheet" href="./FR/Style/StyleFR.css">
+<script src="./FR/JS/JavaScriptFR.js"> </script>
+</head>
+<body style="background-image: url(./Folders/Assets/Images/Background.jpg); 
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;" id="body">
+
+    <p class="slogan">
+
+        Bien Soignée         
+
+    </p>
+
+    <img src="https://cdn-icons-png.flaticon.com/128/500/500148.png" class="nigger" onclick="music.showModal()">
+    <br>
+    <br>
+   
+        <img src="https://cdn-icons-png.flaticon.com/128/11067/11067932.png" alt="https://cdn-icons-png.flaticon.com/128/11067/11067932.png" class="nigger2" onclick="themeChange.showModal()">
+   
+
+    <dialog id="music" class="dialog5">
+        <button class="btn" onclick="music.close()">
+
+            X
+
+        </button>
+        <br>
+        <br>
+        --------------Walk Man--------------  
+        <br>
+        <br>
+        <br>
+        <br>    
+     
+        Honey Jam - Masso Beats
+        <br>
+        <audio src="./Music/HoneyJam - MassoBeats.mp3" controls class="audio" loop>Honey Jam - Masso Beat</audio>
+        Noon - Masso Beats
+        <br>
+        <audio src="./Music/noon - MassoBeats.mp3" controls class="audio" loop>Honey Jam - Masso Beat</audio>
+        <br>
+        Floral  - Masso Beats
+        <br>
+        <audio src="./Music/floral - Masso Beats.mp3" controls class="audio" loop>Honey Jam - Masso Beat</audio>
+        <br>
+        Taro Swirl - Masso Beats
+        <br>
+        <audio src="./Music/taro swirl - Masso Beats.mp3" controls class="audio" loop>Honey Jam - Masso Beat</audio>
+
+        <br>
+        <br> 
+        --------------Walk Man--------------  
+        <br>
+        <br>
+
+        Si la musique ne démarre pas directement, c'est parce qu'elle est toujours en cours de chargement !
+
+        <br>
+        Merci encore a Masso Beats pour sa generositer envers nous :) !
+        <br>
+        <br>
+        Youtube : 
+        <br>
+        <a href="https://www.youtube.com/@massobeats" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" style="height: 30px;">
+        </a>
+        
+    </dialog>
+    <dialog class="dialog5" id="themeChange"> 
+
+        <button class="btn" onclick="themeChange.close()">
+
+            X
+
+        </button>
+        <br>
+        <br>
+
+        Souhaitez-vous changer le thème d'arrière-plan ?
+        <br>
+        <br>
+        Status : <p id="statusText">-----</p>
+        <br>
+        <img src="./Folders/Assets/Images/Background.jpg" alt="./Folders/Assets/Images/Background.jpg" class="background-img1" style="height: 324px; border-radius: 30px;
+        border: solid greenyellow" onclick="today()">
+        <br>
+        <br>
+        <br>
+        <img src="./Folders/Assets/Images/Background-night.jpg" alt="./Folders/Assets/Images/Background-night.jpg" class="background-img" style="height: 324px; width: 190px;
+        border-radius: 30px;
+        border: solid greenyellow;" onclick="tonight()">
+        <br>
+        <br>
+        <br>
+        <img src="./Folders/Assets/Images/background2.jpg"  class="background-img" style="height: 324px; width: 190px;
+        border-radius: 30px;
+        border: solid greenyellow;" onclick="tonight2()">
+        <br>
+        <br>
+        <br>
+        <img src="./Folders/Assets/Images/background3.jpg"  class="background-img" style="height: 324px; width: 190px; border-radius: 30px;
+        border: solid greenyellow" onclick="tonight3()">
+        <br>
+        <br>
+        <br>
+        <img src="./Folders/Assets/Images/background4.jpg"  class="background-img" style="height: 324px; width: 190px; border-radius: 30px;
+        border: solid greenyellow" onclick="tonight4()">
+        <br>
+        <br>
+        <br>
+        <img src="./Folders/Assets/Images/background5.jpg"  class="background-img" style="height: 324px; width: 190px; border-radius: 30px;
+        border: solid greenyellow" onclick="tonight5()">
+
+    </dialog>
+
+    <dialog class="dialog5" id="DMS">
+
+        Choisisez votre saison ! <button class="btn" onclick="DMS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="season1DMSchoosed()">
+            Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="season2DMSchoosed()">
+            Season 2
+        </button>
+        <br><br>
+        <button class="btn" onclick="season3DMSchoosed()">
+            Season 3
+        </button>
+
+        <p>
+            visionner la bande-annonce !
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/G9MJjAArKBk?si=HXZxHe-X8cOwcFIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="DMS"></iframe>
+
+    </dialog>
+    <dialog id="TB" class="dialog5">
+
+        Choisisez votre bande-annonce ! <button class="btn" onclick="TB.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="season1TBchoosed()">
+            Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="season2TBchoosed()">
+            Season 2
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season3TBchoosed()">
+            Season 3
+        </button>
+        <p>
+            Visionner la bande-annonce !
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M1bhOaLV4FU?si=9Sou_Qv9asSe7Ip8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="DMS"></iframe>
+
+    </dialog>
+    <dialog id="Y" class="dialog5">
+
+        Choisisez votre Saison ! <button class="btn" onclick="Y.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="season1Ychoosed()">
+            Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="season2Ychoosed()">
+            Season 2
+        </button>
+        <br>
+        <br>
+        <p>
+            Visionner la bande-annonce !
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3COY_HrMngc?si=UlJpCeE9LsiiFfz5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="DMS"></iframe>
+      
+
+    </dialog>
+    <dialog id="SH" class="dialog5">
+
+        Choisisez votre saison  ! <button class="btn" onclick="SH.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="season1SHchoosed()">
+            Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="season2SHchoosed()">
+            Season 2
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season3SHchoosed()">
+            Season 3
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season4SHchoosed()">
+            Season 4
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season5SHchoosed()">
+            Season 5
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season6SHchoosed()">
+            Season 6
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season7SHchoosed()">
+            Season 7
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season8SHchoosed()">
+            Season 8
+        </button>
+        <p>
+            Visionner la bande-annonce !
+        </p>
+
+        Video non trouvée:(
+
+        Adress : <a href="https://www.youtube.com/watch?v=9tvkYS5cA58&pp=ygUSU2hhbWVsZXNzIHRyYWlsZXIg">
+            Clicker pour visionner la bande-annonce !
+        </a>
+      
+
+    </dialog>
+    <dialog id="PB" class="dialog5">
+
+        Choisosez la saison ! <button class="btn" onclick="PB.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="season1PBchoosed()">
+            Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="season2PBchoosed()">
+            Season 2
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season3PBchoosed()">
+            Season 3
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season4PBchoosed()">
+            Season 4
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season5PBchoosed()">
+            Season 5
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season6PBchoosed()">
+            Season 6
+        </button>
+        <br>
+        <br>
+        <p>
+            Visionner la bande-annonce !
+        </p>
+        Video Non trouvée :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=oVzVdvGIC7U&pp=ygUWcGVha3kgYmxpbmRlcnMgdHJhaWxlcg%3D%3D">
+            Clicker pour visionner la saison !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="GHS" class="dialog5">
+
+        Choisosez votre saison ! <button class="btn" onclick="GHS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="GHSallChoosed()">
+            Tous les episodes
+        </button>   
+        
+        <p>
+            Visionnez la bande-annonce !
+        </p>
+        Video Non trouvée:(
+
+        Adress : <a href="https://www.youtube.com/watch?v=8i3Xvs4R0WY&pp=ygUZZ29kIG9mIGhpZ2hzY2hvb2wgdHJhaWxlcg%3D%3D">
+            Clicker pour visionner la bande-annonce !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="MS" class="dialog5">
+
+        Choisisez votre saison ! <button class="btn" onclick="MS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="MSAllChoosed()">
+            Tous les Episodes
+        </button>   
+        
+        <p>
+            Visionnez la bande annonce !
+        </p>
+        Video non trouvée :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=_z6rvtx3tps&pp=ygUHTWFzaGxlIA%3D%3D">
+            Clicker pour visionner la bande-annonce !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="KA" class="dialog5">
+
+        Choisisez votre Saison ! <button class="btn" onclick="KA.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="KAchoosedOne()">
+           Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="KA2choosedOne()">
+            Season 2
+         </button>  
+        
+        <p>
+            Visionnez la bande annonce !
+        </p>
+        Video Not found :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=QOBHUm6I5lw&pp=ygUWa2VuZ2FuIGFzaHVyYSBzZWFzb24gMw%3D%3D">
+            Clicker pour visionner la bande annonce !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="HP" class="dialog5">
+
+        Choisisez votre saison ! <button class="btn" onclick="HP.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="HPchoosedall()">
+           Tous Les Episodes 
+        </button>   
+        <br>
+        <br>
+       
+        <p>
+            Visionnez la bande-annonce !
+        </p>
+        Video Non trouvée :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=aaHZdwPZX6g&pp=ygUYaGVsbCdzIHBhcmFkaXNlIHRyYWlsZXIg">
+        Visionnez la bande-annonce !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="MHS" class="dialog5">
+
+        Choisisez votre saison ! <button class="btn" onclick="MHS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="MHSchoosed6()">
+            Season 6
+        </button>   
+        <br>
+        <br>
+       
+        <p>
+            Visionnez la bande-annonce !
+        </p>
+        Video non trouvée :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=9Y_eKiT-irU&pp=ygUMTUhBIHRyYWlsZXIg">
+            Visionnez la bande-annonce!
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="CH" class="dialog5">
+
+        Choisisez votre Saison ! <button class="btn" onclick="CH.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="CHchoosedall()">
+            Tous les Episodes
+        </button>   
+        <br>
+        <br>
+       
+        <p>
+            Visionnez la bande-annonce !
+        </p>
+        Video non trouvée :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=l96zmDlWCBk&pp=ygUNY2hhaW5zYXcgbWFuIA%3D%3D">
+            Clicker pour visionner la bande-annonce !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="DS" class="dialog5">
+
+        Choisisez votre Saison ! <button class="btn" onclick="DS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="DSchoosed1()">
+            season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="DSchoosed2()">
+            season 2
+        </button>   
+        <br>
+        <br>
+       
+        <p>
+            Visionnez la bande-annonce !
+        </p>
+        Video Non trouvée :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=S6OmSIxSj14&pp=ygUQZHIgc3RvbmUgdHJhaWxlcg%3D%3D">
+            Clicker pour visionner la bande-annonce !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="SU" class="dialog5">
+
+        Choisisez votre Saision ! <button class="btn" onclick="SU.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="SUchoosed1()">
+            season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="SUchoosed2()">
+            season 2
+        </button>   
+       
+        <br>
+        <br>
+        <button class="btn" onclick="SUchoosed3()">
+            season 3
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="SUchoosed4()">
+            season 4
+        </button>  
+        <br>
+        <br>
+        <button class="btn" onclick="SUchoosed5()">
+            season 5
+        </button>   
+        <p>
+            Visionnez la bande-annonce !
+        </p>
+        Video Non trouvée :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=85z53bAebsI&pp=ygUNU1VJVFMgdHJhaWxlcg%3D%3D">
+            Clicker pour visionner la bande-annonce !
+        </a>
+        
+
+      
+
+    </dialog>
+    <dialog id="YS" class="dialog5">
+
+        Choisisez votre saison ! <button class="btn" onclick="YS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="YSchoosed1()">
+            season 1
+        </button>   
+       
+        <p>
+            Visionnez la bande-annonce
+        </p>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lCPf9SA4mgU?si=_HBWX65pzj05sGq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       
+        </a>
+        
+
+      
+
+    </dialog>
+    <dialog id="CP" class="dialog5">
+
+        Choisisez votre Saision! <button class="btn" onclick="CP.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="CPchoosed1()">
+            season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="CPchoosed2()">
+            season 2
+        </button>  
+        <br>
+        <br>
+        <button class="btn" onclick="CPchoosed3()">
+            season 3
+        </button>  
+       
+      
+        
+        <p>
+           Visionnez la bande-annonce  !
+        </p>
+        Video Non trouvée:(
+
+        Adress : <a href="https://www.youtube.com/watch?v=_InqQJRqGW4&pp=ygUVY2FzYSBkZSBwYXBlbCB0cmFpbGVy">
+            Clicker pour visionner la bande-annonce !
+        </a>
+        </a>
+        
+
+      
+
+    </dialog>
+    <dialog id="CM" class="dialog5">
+
+        Choisisez Votre Saison ! <button class="btn" onclick="CM.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="CMchoosed1()">
+            season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="CMchoosed2()">
+            season 2
+        </button>  
+        <br>
+        <br>
+       
+       
+      
+        
+        <p>
+            Visionnez la bande-annonce !
+        </p>
+        Video Non trouvée :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=NTYxiJBbEZk&pp=ygUWY1JJTUlOQUwgbUlORFMgdHJhaWxlcg%3D%3D">
+            Clicker pour visionnez la bande-anonce !
+        </a>
+        </a>
+        
+
+      
+
+    </dialog>
+    <dialog id="SF" class="dialog5">
+
+        Choisisez votre Saison ! <button class="btn" onclick="SF.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="SFChoosed1()">
+            season 1
+        </button>   
+        <br>
+        <br>
+      
+       
+       
+      
+        
+        <p>
+            Visionnez la bande annonce !
+        </p>
+        Vidéo non trouvée:(
+
+        Adress : <a href="https://www.youtube.com/watch?v=G2hMxiHai1Q">
+            Cliquez pour regarder la bande-annonce !
+        </a>
+        </a>
+        
+
+      
+
+    </dialog>
+    <dialog id="HXH" class="dialog5">
+
+        Choisissez votre saison ! <button class="btn" onclick="HXH.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="HXHChoosed1()">
+            Les 147 épisodes  
+        </button>   
+        <br>
+        <br>
+      
+       
+       
+      
+        
+        <p>
+            Visionnez La bande-annonce
+        </p>
+        Video Non trouvée :(
+
+        Adress : <a href="https://youtu.be/d6kBeJjTGnY">
+            Cliquez pour regarder la bande-annonce !
+        </a>
+        </a>
+        
+
+      
+
+    </dialog>
+    <dialog id="BlackClover" class="dialog5">
+
+        Choisissez votre saison ! <button class="btn" onclick="BlackClover.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="BCChoosedall()">
+            Les 170 épisodes  
+        </button>   
+        <br>
+        <br>
+      
+       
+       
+      
+        
+        <p>
+            Visionnez La bande-annonce
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PrgxJ1_sUcs?si=5vy9Clthzw1mGluU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="size: 200px;"></iframe>
+        
+
+      
+
+    </dialog>
+    <dialog id="OPM" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="OPM.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="OPMchoosed1()">
+            season 1
+        </button>   
+        
+       
+      
+        Cliquez pour regarder la bande-annonce !
+        <p>
+            Visionnez la bande annonce !
+        </p>
+        Vidéo non trouvée :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=Poo5lqoWSGw&pp=ygUVT25lIFB1bmNoIE1hbiB0cmFpbGVy">
+            Cliquez pour regarder la bande-annonce !
+        </a>
+        </a>
+        
+
+      
+
+    </dialog>
+    <dialog id="JBA" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="JBA.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="JBAchoosed1()">
+            season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="JBAchoosed2()">
+            season 2
+        </button>  
+        <br>
+        <br>
+        <button class="btn" onclick="JBAchoosed3()">
+            season 3
+        </button>  
+        <br>
+        <br>
+        <button class="btn" onclick="JBAchoosed4()">
+            season 4
+        </button>  
+        <br>
+        <br>
+        <button class="btn" onclick="JBAchoosed5()">
+            season 5
+        </button>  
+       
+      
+        Cliquez pour regarder la bande-annonce !
+        <p>
+            Visionnez la bande annonce !
+        </p>
+        Vidéo non trouvée :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=EeCX8Y0a278&pp=ygUiak9KTydTIGJPWlpBUkUgYURWRU5UVVJFUyBUUkFJTEVSIA%3D%3D">
+            Cliquez pour regarder la bande-annonce !
+        </a>
+        </a>
+        
+
+      
+
+    </dialog>
+    <dialog id="BB" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="BB.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="BBchoosed1()">
+            season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="BBchoosed2()">
+            season 2
+        </button>  
+        <br>
+        <br>
+        <button class="btn" onclick="BBchoosed3()">
+            season 3
+        </button>  
+        <br>
+        <br>
+        <button class="btn" onclick="BBchoosed4()">
+            season 4
+        </button>  
+        <br>
+        <br>
+        <button class="btn" onclick="BBchoosed5()">
+            season 5
+        </button>  
+       <br>
+       <br>
+      
+        Cliquez pour regarder la bande-annonce !
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ceqOTZnhgY8?si=RRACVjVcpP57n_0f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+
+      
+
+    </dialog>
+    <dialog id="PARA" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="PARA.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="PARASYTE()">
+            Tous les 24 episodes
+        </button>   
+        <br><br>
+      
+        Cliquez pour regarder la bande-annonce !
+        <a href="https://www.youtube.com/watch?v=rj63TDpaBWk&pp=ygUQUGFyYXN5dGUgdHJhaWxlcg%3D%3D">
+        Clicker Ici !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="VSaga" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="VSaga.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="VS()">
+            Tous les 13 episodes
+        </button>   
+        <br><br>
+      
+        Cliquez pour regarder la bande-annonce !
+        <a href="https://www.youtube.com/watch?v=f8JrZ7Q_p-8&pp=ygUVVmlubGFuZCBTYWdhIHRyYWlsZXIg">
+        Clicker Ici !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="ATWOWyeah1" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="ATWOWyeah1.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="ATWOWyeah()">
+            Le film Avatar the way of water
+        </button>   
+        <br><br>
+      
+        Cliquez pour regarder la bande-annonce !
+        <a href="https://www.youtube.com/watch?v=d9MyW72ELq0&pp=ygUXYXZhdGFyIHRoZSB3YXkgb2Ygd2F0ZXI%3D">
+        Clicker Ici !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="BP1" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="BP1.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="BP()">
+            Le film Black Panther Wakanda Forever
+        </button>   
+        <br><br>
+      
+        Cliquez pour regarder la bande-annonce !
+        <a href="https://www.youtube.com/watch?v=_Z3QKkl1WyM&pp=ygUdYmxhY2sgcGFudGhlciB3YWthbmRhIGZvcmV2ZXI%3D">
+        Clicker Ici !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="AMAWyeah" class="dialog5">
+
+       Ant man and the Wasp ! <button class="btn" onclick="AMAWyeah.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="AMAW()">
+            Le film !
+        </button>   
+        <br><br>
+      
+        Cliquez pour regarder la bande-annonce !
+        <a href="https://www.youtube.com/watch?v=ZlNFpri-Y40&pp=ygUhYW50IG1hbiBhbmQgdGhlIHdhc3AgcXVhbnR1bWFuaWEg">
+        Clicker Ici !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="CM22" class="dialog5">
+
+        Captain Marvel 2 ! <button class="btn" onclick="CM22.close()">
+ 
+             X
+ 
+         </button>
+ 
+         <br>
+         <br>
+ 
+         <button class="btn" onclick="CM2()">
+             Le film Captain Marvel!
+         </button>   
+         <br><br>
+       
+         Cliquez pour regarder la bande-annonce !
+         <a href="https://www.youtube.com/watch?v=Z1BCujX3pw8&pp=ygUWY2FwdGFpbiBtYXJ2ZWwgdHJhaWxlcg%3D%3D">
+         Clicker Ici !
+         </a>
+ 
+       
+ 
+     </dialog>
+    <dialog id="Bb12" class="dialog5">
+
+        Blue Beetle ! <button class="btn" onclick="Bb12.close()">
+ 
+             X
+ 
+         </button>
+ 
+         <br>
+         <br>
+ 
+         <button class="btn" onclick="Bb1()">
+             Le film Blue Beetle !
+         </button>   
+         <br><br>
+       
+         Cliquez pour regarder la bande-annonce !
+         <a href="https://www.youtube.com/watch?v=4wxyy8Rcz4k&pp=ygUTQmx1ZSBiZWV0bGUgdHJhaWxlcg%3D%3D">
+         Clicker Ici !
+         </a>
+ 
+       
+ 
+     </dialog>
+     <dialog id="ccd2" class="dialog5">
+
+        Chan Can Dunk! 
+        <<button class="btn" onclick="ccd2.close()">
+ 
+             X
+ 
+         </button>
+ 
+         <br>
+         <br>
+ 
+         <button class="btn" onclick="ccd()">
+             Le film Chan Can Dunk !
+         </button>   
+         <br><br>
+       
+         Cliquez pour regarder la bande-annonce !
+         <a href="https://www.youtube.com/watch?v=o-2GBTBVyKY&pp=ygUPQ2hhbiBjYW4gZHVua2wg">
+         Clicker Ici !
+         </a>
+ 
+       
+ 
+     </dialog>
+     <dialog id="CWw" class="dialog5">
+
+        Chaos Walking! 
+        <<button class="btn" onclick="CWw.close()">
+ 
+             X
+ 
+         </button>
+ 
+         <br>
+         <br>
+ 
+         <button class="btn" onclick="CWs()">
+             Le film Chaos Walking !
+         </button>   
+         <br><br>
+       
+         Cliquez pour regarder la bande-annonce !
+         <a href="https://www.youtube.com/watch?v=nRf4ZgzHoVw&pp=ygUNY2hhb3Mgd2FsaWtuZw%3D%3D">
+         Clicker Ici !
+         </a>
+ 
+       
+ 
+     </dialog>
+     <dialog id="DS2022" class="dialog5">
+
+        Day Shift - 2022 edition 
+        <<button class="btn" onclick="DS2022.close()">
+ 
+             X
+ 
+         </button>
+ 
+         <br>
+         <br>
+ 
+         <button class="btn" onclick="CWsf()">
+             Le film Day Shift !
+         </button>   
+         <br><br>
+       
+         Cliquez pour regarder la bande-annonce !
+         <a href="https://www.youtube.com/watch?v=nRf4ZgzHoVw&pp=ygUNY2hhb3Mgd2FsaWtuZw%3D%3D">
+         Clicker Ici !
+         </a>
+ 
+       
+ 
+     </dialog>
+     <dialog id="DoctorStrange" class="dialog5">
+
+        Doctor Strange 2  
+        <<button class="btn" onclick="DoctorStrange.close()">
+ 
+             X
+ 
+         </button>
+ 
+         <br>
+         <br>
+ 
+         <button class="btn" onclick="Doctor()">
+             Doctor Strange 2
+         </button>   
+         <br><br>
+       
+         Cliquez pour regarder la bande-annonce !
+         <a href="https://www.youtube.com/watch?v=aWzlQ2N6qqg&pp=ygUYZG9jdG9yIHN0cmFuZ2UgMiB0cmFpbGVy">
+         Clicker Ici !
+         </a>
+ 
+       
+ 
+     </dialog>
+     <dialog id="ET" class="dialog5">
+
+        Escape Room Tournament  
+        <<button class="btn" onclick="ET.close()">
+ 
+             X
+ 
+         </button>
+ 
+         <br>
+         <br>
+ 
+         <button class="btn" onclick="et()">
+             Escape Room Tournament
+         </button>   
+         <br><br>
+       
+         Cliquez pour regarder la bande-annonce !
+         <a href="https://www.youtube.com/watch?v=6dSKUoV0SNI&pp=ygUYZXNjYXBlIHJvb20gdHJhaWxlciAyMDE5">
+         Clicker Ici !
+         </a>
+ 
+       
+ 
+     </dialog>
+     <dialog id="ETernals" class="dialog5">
+
+        Eternals 
+        <<button class="btn" onclick="ETernals.close()">
+ 
+             X
+ 
+         </button>
+ 
+         <br>
+         <br>
+ 
+         <button class="btn" onclick="eternals()">
+             Eternals 
+         </button>   
+         <br><br>
+       
+         Cliquez pour regarder la bande-annonce !
+         <a href="https://www.youtube.com/watch?v=x_me3xsvDgk&pp=ygUIZXRlcm5hbHM%3D">
+         Clicker Ici !
+         </a>
+ 
+       
+ 
+     </dialog>
+     <dialog id="E" class="dialog5">
+
+        Extraction
+        <<button class="btn" onclick="E.close()">
+ 
+             X
+ 
+         </button>
+ 
+         <br>
+         <br>
+ 
+         <button class="btn" onclick="e()">
+             Extraction
+         </button>   
+         <br><br>
+       
+         Cliquez pour regarder la bande-annonce !
+         <a href="https://www.youtube.com/watch?v=x_me3xsvDgk&pp=ygUIZXRlcm5hbHM%3D">
+         Clicker Ici !
+         </a>
+ 
+       
+ 
+     </dialog>
+     <div class="container">
+
+        <img src="https://wallpapers.com/images/featured/demon-slayer-pictures-tsbyd3y88kxirm15.jpg" alt="https://wallpapers.com/images/featured/demon-slayer-pictures-tsbyd3y88kxirm15.jpg" class="Movie" onclick="DMS.showModal()">
+        <p class="defonitions">
+           Demon Slayer 
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/bIhBfETz8tfaZNyWrEU2AfbXWOg69tbhR8A1r9DraAE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL1Mv/cHYtdGFyZ2V0LWlt/YWdlcy80NDRmZDEz/OGU1MzdjOTZiZjhk/ZjUzYjkwNGIxMWUy/NDgxNzQwZTMwNGU3/ZDdlNTFhMTQwM2Ux/ZDdiY2EyOThiLmpw/Zw" alt="https://imgs.search.brave.com/bIhBfETz8tfaZNyWrEU2AfbXWOg69tbhR8A1r9DraAE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL1Mv/cHYtdGFyZ2V0LWlt/YWdlcy80NDRmZDEz/OGU1MzdjOTZiZjhk/ZjUzYjkwNGIxMWUy/NDgxNzQwZTMwNGU3/ZDdlNTFhMTQwM2Ux/ZDdiY2EyOThiLmpw/Zw" class="Movie" onclick="TB.showModal()">
+        <p class="defonitions">
+           The BOYS
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/fc-QKVnGZsCqRbtMTLXUMd515XlvPvpomRiyeUEwkBI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kbm0u/bmZseGltZy5uZXQv/YXBpL3Y2L0J2VmJj/Mld4cjJ3NlF1b0FO/b1NwSktFSVdqUS9B/QUFBUVdNUms0S19r/ZTI3b0tISjlxVlFQ/NHhoU3NSQjFhR3Y0/V3V4SHp3d3RoWTN5/cjI4QW1aTkJyUmwz/RUNrd1drc1lnQkhO/RXFmMkRqOEhCNjFE/WFp4TndLMGVOcUpE/a1ZWYnVwY1R5SlYw/aWdNbVU2MWwyYk00/N1RXaldiRkZuOWgz/YUNWeTRVeUlUV1Nq/UFRYM2pOekxIenlB/aE0uanBnP3I9MmZl" alt="https://imgs.search.brave.com/fc-QKVnGZsCqRbtMTLXUMd515XlvPvpomRiyeUEwkBI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kbm0u/bmZseGltZy5uZXQv/YXBpL3Y2L0J2VmJj/Mld4cjJ3NlF1b0FO/b1NwSktFSVdqUS9B/QUFBUVdNUms0S19r/ZTI3b0tISjlxVlFQ/NHhoU3NSQjFhR3Y0/V3V4SHp3d3RoWTN5/cjI4QW1aTkJyUmwz/RUNrd1drc1lnQkhO/RXFmMkRqOEhCNjFE/WFp4TndLMGVOcUpE/a1ZWYnVwY1R5SlYw/aWdNbVU2MWwyYk00/N1RXaldiRkZuOWgz/YUNWeTRVeUlUV1Nq/UFRYM2pOekxIenlB/aE0uanBnP3I9MmZl" class="Movie" onclick="Y.showModal()">
+        <p class="defonitions">
+            You 
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/p5Qeqy0wwcNX_BAOj9nJCkJ5c2yZHLmml6HjDCV4JNs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2U0L1NoYW1lbGVz/c18yMDExX0ludGVy/dGl0bGUucG5n" alt="https://imgs.search.brave.com/p5Qeqy0wwcNX_BAOj9nJCkJ5c2yZHLmml6HjDCV4JNs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2U0L1NoYW1lbGVz/c18yMDExX0ludGVy/dGl0bGUucG5n" class="Movie" onclick="SH.showModal()">
+        <p class="defonitions">
+            ShameLess , like really !
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/jvMUQuMawE2Z0P0zYb9WVfRaclNqnWfqVh79phGsACg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy8zOTQ1/LXBidi0wOWphbjE5/YS0xNTY5MzQ0ODM0/LmpwZz9jcm9wPTF4/dzowLjgzNDE1NzE5/MjI4ODY4MDF4aDtj/ZW50ZXIsdG9wJnJl/c2l6ZT0xMjAwOio" class="Movie" onclick="PB.showModal()">
+        <p class="defonitions">
+            Peaky Blinders 
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/we2spYaDK_rEmkUjW25_B2U32Dyk-aKSWiR48BNsYK4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LnRo/ZWFuaW1lZGFpbHku/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIxLzA5L3RoZS1n/b2Qtb2YtaGlnaHNj/aG9vbC5qcGc_cmVz/aXplPTEwMjQsNTc2/JnNzbD0x" class="Movie" onclick="GHS.showModal()">
+        <p class="defonitions">
+            God of High School 
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/wTptgmBtu7g_xQFYrrJv1TsBdH-dvZBjVfeiy8z-VYw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuYW5pbWVjb3Ju/ZXIubWUvMjAyMy8w/Ni9NYXNobGVfUzJf/MTMtMTAyNHg1NzYu/cG5n" class="Movie" onclick="MS.showModal()">
+        <p class="defonitions">
+           Mashle
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/EgkvmozBn392-x9ERkMQVC5Ly2-Bj0ZKdGEfjsfPwcc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jdWx0/dXJlZHZ1bHR1cmVz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMi8wOC9LZW5n/YW4tQXNodXJhLTgw/M3g0NTIuanBn" class="Movie" onclick="KA.showModal()">
+        <p class="defonitions">
+           Kenga Ashura !
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/qFu0foq2x6C7H-v49XreK1y7UwdYSXo0DLNUI36Mb98/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGV4ZXJ0by5jb20v/Y2RuLWNnaS9pbWFn/ZS93aWR0aD0zODQw/LHF1YWxpdHk9NzUs/Zm9ybWF0PWF1dG8v/aHR0cHM6Ly9lZGl0/b3JzLmRleGVydG8u/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIzLzA0LzI3L2hl/bGxzLXBhcmFkaXNl/LWdhYmltYXJ1Lmpw/ZWc" class="Movie" onclick="HP.showModal()">
+        <p class="defonitions">
+            Hell's Paradise 
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/xjQrPc5K0BpH6pkZXL0wew4PweTa1wIXNp3T3-OyW4U/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW1tZWRpYXRl/LmNvLnVrL3Byb2R1/Y3Rpb24vdm9sYXRp/bGUvc2l0ZXMvMy8y/MDIxLzEwL015LUhl/cm8tQWNhZGVtaWEt/Nzc2ZThlNS5wbmc_/cXVhbGl0eT05MCZj/cm9wPTUwNXB4LDBw/eCwxNDA1cHgsOTM2/cHgmZml0PTcwMCw0/NjY" class="Movie" onclick="MHS.showModal()">
+        <p class="defonitions">
+            My Hero Academia
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/UALiaNovuGAhAdsAsRSXStG242WB4TbEFdvV9Vabihg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGV4ZXJ0by5jb20v/Y2RuLWNnaS9pbWFn/ZS93aWR0aD0zODQw/LHF1YWxpdHk9NzUs/Zm9ybWF0PWF1dG8v/aHR0cHM6Ly9lZGl0/b3JzLmRleGVydG8u/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIyLzEwLzA3L0No/YWluc2F3TWFuLmpw/Zw" class="Movie" onclick="CH.showModal()">
+        <p class="defonitions">
+            Chainsaw Man
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/bPEmMJa4emfOCfRRZWenlLwm_t9re_xQVktAzMbGiIQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvZHItc3RvbmUt/cGljdHVyZXMtcGJj/NThscTZ6OXd2ZWZz/ay5qcGc" class="Movie" onclick="DS.showModal()">
+        <p class="defonitions">
+            Dr.Stone
+        </p>
+        <br>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/UW2T9bv9g7fa8YJKGr0_jHUammv8iQ1l_qeDwL7sRjA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kZWFk/bGluZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTkvMDUv/c3VpdHMtc2Vhc29u/LTkta2V5LWFydC0x/LmpwZz93PTY4MSZo/PTM4MyZjcm9wPTE" alt="https://imgs.search.brave.com/UW2T9bv9g7fa8YJKGr0_jHUammv8iQ1l_qeDwL7sRjA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kZWFk/bGluZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTkvMDUv/c3VpdHMtc2Vhc29u/LTkta2V5LWFydC0x/LmpwZz93PTY4MSZo/PTM4MyZjcm9wPTE" onclick="SU.showModal()" class="Movie">
+        <p class="defonitions">
+            Suits
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/k3fde5Rm3HLYHkdL6Vxp83FHZp5JQYMxSKZ0MvbhGd4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDIyNjU1/NDkuanBn" onclick="YS.showModal()" class="Movie">
+        <p class="defonitions">
+            Youjo Senki
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/QeyeerTlFeErUKU9px9hBZZTJrrdpuU85OXf-1gssYg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDIzNTgz/OTguanBn" onclick="CP.showModal()" class="Movie">
+        <p class="defonitions">
+           La Casa De Papel
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/jctzRBPE3gWTE0MV1p3bX4DACPcwTT3iylJt6aN_TF0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/dXNtYWdhemluZS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDcvQ3JpbWlu/YWwtTWluZHMtUmV2/aXZhbC1QcmVtaWVy/ZS1QYXJhbW91bnQt/V2l0aC1PcmlnaW5h/bC1DYXN0LmpwZz9j/cm9wPTBweCwwcHgs/MjAwMHB4LDExMzFw/eCZyZXNpemU9NDAw/LDIyNSZxdWFsaXR5/PTg2JnN0cmlwPWFs/bA" onclick="CM.showModal()" class="Movie">
+        <p class="defonitions">
+           Criminal Minds 
+
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/ZYQVDGZNfYV4kHPOOs1BV8FjC-3JcQFgXhUerCS7Ato/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvc3B5LXgtZmFt/aWx5LWxsZTZpcHhh/eDJzYzF0ZmcuanBn" onclick="SF.showModal()" class="Movie">
+        <p class="defonitions">
+           Spy X Familly
+
+        </p>
+
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/wMHvBOmJlvFLQs7irNjQFND4EI-OQ73xiWPJ5QFDIrM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4NTk5/MzkuanBn" onclick="HXH.showModal()" class="Movie">
+        <p class="defonitions">
+           Hunter X Hunter 2011
+
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/2CgKLc96exmzEMYUDKhuht8Rd1mfVau924a_TUtv92c/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXM4LmFscGhhY29k/ZXJzLmNvbS83NTUv/NzU1MzIzLmpwZw" onclick="JBA.showModal()" class="Movie">
+        <p class="defonitions">
+           Jojo's Bizzare Adventures
+
+        </p>
+
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/QYzTdYBmRhDjjWG8eMzEsqszwY6DCwCUGsILW9JF3kA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDM2MTM3/MjUuanBn" onclick="BlackClover.showModal()" class="Movie">
+        <p class="defonitions">
+           Black Clover
+
+        </p>
+
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/foqeFnGB1OLY1S3VvDoLZO5LCLRRZzwE0Q89Hel7RZA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jNC53/YWxscGFwZXJmbGFy/ZS5jb20vd2FsbHBh/cGVyLzEwMDYvMjc2/Lzk3OS9icmVha2lu/Zy1iYWQtdHYtd2Fs/bHBhcGVyLXByZXZp/ZXcuanBn" onclick="BB.showModal()" class="Movie">
+        <p class="defonitions">
+            Breaking Bad
+
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/X8VbqRkwCJRSTocDUGS_9hvOCPH2RD1vHHe_Dkpt6Xc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4MDk4/OTYuanBn" onclick="OPM.showModal()" class="Movie">
+        <p class="defonitions">
+            One Punch Man
+
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/SxKtoRh53wI30Y_-R2nJkF7DoIBPyPnJvbE_e0lXAAM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/aGl0Yy5jb20vc3Rh/dGljL3VwbG9hZHMv/MjAyMC8wNS9QYXJh/c3l0ZS1UaGUtTWF4/aW0tTmV0ZmxpeC5q/cGc" onclick="PARA.showModal()" class="Movie">
+        <p class="defonitions">
+            Parasyte
+
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/4MoxoN4lFOFi0s-f-AVeUXrhJF9JMvpIQ5Z1hUZIehQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvdmlubGFuZC1z/YWdhLXBpY3R1cmVz/LWRpa3h6aWRzYXpi/M2Rxem0uanBn" onclick="VSaga.showModal()" class="Movie">
+        <p class="defonitions">
+            Vinland Saga
+
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/sISreR4qW78Gh3NywMCnkpNSOGOLHEsfTuNyPxvIC38/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/bWFydmVsLmNvbS9j/b250ZW50LzF4L2Fu/dC1tYW5hbmR0aGV3/YXNwX2xvYl9sb2df/MDMucG5n" onclick="AMAWyeah.showModal()" class="Movie">
+        <p class="defonitions">
+            Ant Man and The Wasp
+
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/4zYMX23I7Z5zjOQI-9mlgormbe86iR0D-5MOMOBB0Yo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sdW1p/ZXJlLWEuYWthbWFp/aGQubmV0L3YxL2lt/YWdlcy9udF9hdmF0/YXIyXzg4X2I2NzJl/NzNjLmpwZWc_cmVn/aW9uPTAsMCwxMjUw/LDY4MA" onclick="ATWOWyeah1.showModal()" class="Movie">
+        <p class="defonitions">
+            Avatar the way of water
+
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/_ZGqfzCvhkKyIxOFaHiI6zgRrk3OfXtoldicOdxv2Cc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dXNtYWdhemluZS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMDcvRXZlcnl0/aGluZy1XZS1Lbm93/LUFib3V0LUJsYWNr/LVBhbnRoZXItV2Fr/YW5kYS1Gb3JldmVy/LTAyLmpwZz93PTkw/MCZxdWFsaXR5PTg2/JnN0cmlwPWFsbA" onclick="BP1.showModal()" class="Movie">
+        <p class="defonitions">
+            Black Panther Wakanda Forever
+
+        </p>
+        <br>
+        <br>
+       
+        <img src="https://imgs.search.brave.com/pjpNC3SpVg9wayZHvJsJtyPf33sibdFATEhcolSuA6o/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wcmQt/cnRlZGl0b3JpYWwu/czMudXMtd2VzdC0y/LmFtYXpvbmF3cy5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMDgvMjExMjI0/NTIvQmx1ZV9CZWV0/bGVfQk8xLVJlcC5q/cGc" onclick="Bb12.showModal()" class="Movie">
+        <p class="defonitions">
+            Blue Beetle
+
+        </p>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/3EU3H-jKi_3ZjrWjEL8iAQzmt_JfxqeVDnlv_DDFxYc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhlZGlyZWN0/LmNvbS9tZWRpYS9h/cnRpY2xlX2Z1bGwv/bWN1LWF2ZW5nZXJz/LmpwZz9pbWdlbmc9/Y21wcl83NS8" onclick="CM22.showModal()" class="Movie">
+        <p class="defonitions">
+            Captain Marvel 2
+
+        </p>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/X2sP_VqKJS44ogZgFOWxGN_LxGCvABOAJ2B30duyEi4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk4yTmlZMkpo/WXpVdE1XUmpOaTAw/WVRaa0xUZzNZV1l0/TURGaU1ESmtZVGxq/WkdGaVhrRXlYa0Zx/Y0dkZVFYVnlNelV3/TkRJeE1qUUAuanBn" onclick="ccd2.showModal()" class="Movie">
+        <p class="defonitions">
+            Chan can Dunk
+
+        </p>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/IO7o--HJ30AitumtczVYa3UFTIrWP6jk1SYIkb1fPqk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlbW92aWVkYi5v/cmcvdC9wL3c1MzNf/YW5kX2gzMDBfYmVz/dHYyL292Z2dtQU91/MUliUEdUUUU4bGc0/bEJhc05DNy5qcGc" onclick="CWw.showModal()" class="Movie">
+        <p class="defonitions">
+            Chaos Walking
+
+        </p>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/80kS5turQLMQubFYCUnS6umxhD7ibJS_MWkSPydXEUM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMtcHJkLmlnbmlt/Z3MuY29tLzIwMjIv/MDYvMDcvZGF5LXNo/aWZ0LWJ1dHRvbi0w/MC0xNjU0NjM1NTE1/NTE4LmpwZz93aWR0/aD0xMTQmYXV0bz13/ZWJw" onclick="DS2022.showModal()" class="Movie">
+        <p class="defonitions">
+            Day Shift - 2022 edition
+
+        </p>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/7vZ7hvwttqHabboTT5PnskeOEItUSBot2v6aFVWfQ4Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDIwMjg2/MzAuanBn" onclick="DoctorStrange.showModal()" class="Movie">
+        <p class="defonitions">
+            
+            Doctor Strange 2
+
+        </p>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/hewbOEGUksVGPbfEZhGsVI6rLL3BecAY0V3Ja9yi1gA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/anVzdHdhdGNoLmNv/bS9pbWFnZXMvYmFj/a2Ryb3AvMjUwNzE2/MTY2L3M0ODAvZXNj/YXBlLXJvb20tMi9l/c2NhcGUtcm9vbS0y.jpeg" onclick="ET.showModal()" class="Movie">
+        <p class="defonitions">
+            
+            Escape Room Tournament
+
+        </p>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/m2WLagubRe-IXiaeYKzGmjuoKjkoViwxGbdlJuxkQb4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L3ZT/a1FqR3MzMmpabXdq/VlNkWTZSWVEtMzIw/LTgwLmpwZw" onclick="ETernals.showModal()" class="Movie">
+        <p class="defonitions">
+            
+            Eternals
+
+        </p>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/oGSYJyE3ZHN3AV43w3f1hEMHAgot_7qoMqe5_lROqjk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9vY2Mt/MC0yNDMwLTQ0OC4x/Lm5mbHhzby5uZXQv/ZG5tL2FwaS92Ni82/Z212dTJoeGRmblE1/NUxaWmp5ellSNGt6/R2svQUFBQUJZcHRC/YjNIQzFWLWRHVXdj/dXlvNWpEZHQ0TGtY/TS1kNVdhd19fUkN5/TnJGOTl3SXJxeWZG/MXFEWDh0OEYwQ0d2/NmRIc1VVUFl6S3h6/TGd5ODVsLXJJdjdh/WnVBMmV4SHZLdGNy/S3NrV25DV2V6bFA0/eHJzSWY4aFlYUnhM/SFFzYm1LblZnLmpw/Zz9yPTM2Mg" onclick="E.showModal()" class="Movie">
+        <p class="defonitions">
+            
+            Extraction
+
+        </p>
+        <br>
+        <br>
+        <p class="defonitions">
+            De quoi vous pensez ? :
+         </p>
+    
+         <input type="text" id="textField" placeholder="Add whatever you feel !" class="text-field">
+         <b>
+            <br>
+         </b>
+         <button class="btn" onclick="submitPls()">
+            Submit !
+         </button>
+         <p class="text" id="textField2">
+            -----
+         </p>
+          </div>
+     
+ 
+   
+     <dialog id="shoppingBag" class="dialog5">
+
+        <p class="title3">
+
+            Votre Panier         <button onclick="shoppingBag.close()" class="btn">  X  </button>
+
+        </p>
+
+        <br>
+        <br>
+        <p id="shoppingId"> 
+            ----------Facture----------
+            <br>
+            <br>
+
+            Pour l'acheter faites une capture d'écran puis envoyez-la au compte commercial :
+
+            SnapChat
+
+            @ismo140607
+        <p>
+            Prix : <p id="price">
+
+                150 <p>FDJ</p>
+                    
+                
+            
+        </p>
+
+        <p id="firstSegment">
+            
+        </p>
+            ----------Facture----------
+        
+
+
+
+
+     </dialog>
+     <style>
+        .Movie {
+
+            height: 120px;
+            border-radius: 20px;
+           
+
+        }
+        .Movie:active {
+
+            box-shadow: 10px 10px 10px  black ;
+  
+
+        }
+        .defonitions {
+
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: small;
+            font-weight: bold;
+            text-align: center;
+
+        }
+     </style>
+        
+    <div>
+        <div class="tab-container">
+            <img class="three-bars" onclick="threeBarsDialog.showModal()" src="https://cdn-icons-png.flaticon.com/128/1077/1077114.png" alt="https://cdn-icons-png.flaticon.com/128/1077/1077114.png">
+        </div>
+    </div>
+    <div class="icon-container" ">
+        <img src="./Folders/Assets/Images/logo.png" alt=" ./Folders/Assets/Images/logo.png" class="shopBag-icon">
+        <div>
+            <p class="shop-title">
+                Cineplanet
+            </p>
+            <img src="   https://cdn-icons-png.flaticon.com/512/1288/1288704.png " alt="   https://cdn-icons-png.flaticon.com/512/1288/1288704.png " class="shoppingBag-icon" onclick="shoppingBag.showModal()">
+        </div>
+        <dialog id="threeBarsDialog" class="popUp">
+            <button class="btn" onclick="threeBarsDialog.close()">
+                x
+            </button>
+            <p style="text-align: center;">
+                <img class="three-bars" onclick="threeBarsDialog.showModal()" src="https://cdn-icons-png.flaticon.com/128/1077/1077114.png" alt="https://cdn-icons-png.flaticon.com/128/1077/1077114.png">
+            </p>
+            <p id="name">
+
+            </p>
+            <br>
+            <br>
+             <p>
+                Cette onglet n'est  <br>pas tres util pour <br> l'utilisateur moyen !
+             </p>
+
+             <p id="login-id">
+                login id :
+             </p>
+        </dialog>
+    </div>
+    
+     
+</body>
+</html>

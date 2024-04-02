@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="x-icon" href="/Folders/Assets/Images/logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cineplanet, Enfin</title>
+  <script src="./accJS.js"></script>
+</head>
+<style>
+  .title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  .acc {
+    text-align: center;
+  }
+  .nameInput1 {
+    padding: 10px;
+    background-color: rgb(180, 178, 178);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    border-color: black;
+    border: solid;
+    position: absolute;
+    top:300px;
+    left: 25%;
+  }
+  .text{
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bolder;
+  }
+  .nameInput2 {
+    padding: 10px;
+    background-color: rgb(180, 178, 178);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    border-color: black;
+    border: solid;
+    position: absolute;
+    top:400px;
+    left: 25%;
+  }
+  .text2{
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bolder;
+    margin-top: 100px;
+  }
+  .erortext {
+    
+    margin-top: 200px;
+    text-align: center;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  .btn {
+    padding: 10px;
+    border-radius: 20px;
+   transition-property: all;
+   transition-duration: 200ms;
+  }
+  .btn:active{
+    
+    opacity: 0.5;
+  }
+</style>
+<body>
+  <p style="text-align: center;" class="title">
+    Cineplanet, enfin
+  </p>
+  <p class="acc">
+    <img src="https://cdn-icons-png.flaticon.com/128/456/456212.png" alt="">
+  </p>
+  <p class="text">
+    Inserez un nom d'utilisateur.
+  </p>
+  <input type="text" placeholder="Nom..." class="nameInput1" id="input1">
+  <p class="text2">
+    Inserez un Mot de passe.
+  </p>
+  <input type="text" placeholder="Mot de passe..." id="input2" class="nameInput2">
+  <p class="erortext" id="errtext">
+    
+  </p>
+  <p style="text-align: center;" class="btn">
+    <button class="btn" onclick="accEnter()" style=" background-color: green ; border: solid black;">
+      Inscrivez vous !
+    </button>    
+  </p>
+</body>
+</html>
